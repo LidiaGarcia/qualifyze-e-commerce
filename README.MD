@@ -12,7 +12,7 @@ Automated test suite for e-commerce platform using Playwright and TypeScript.
 Clone the repository and install dependencies:
 
 ```bash
-git clone <repo-url> //todo
+git clone https://github.com/LidiaGarcia/qualifyze-e-commerce.git
 cd qualifyze-e-commerce
 npm install
 npx playwright install
