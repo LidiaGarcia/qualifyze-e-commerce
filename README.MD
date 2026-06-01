@@ -50,3 +50,6 @@ npx playwright show-report
 ## Automation vs Manual Rationale
 
 //todo 
+//todo maybe mencionar patron screenplay
+
+//screenshot
