@@ -1,7 +1,10 @@
 import { Page } from '@playwright/test';
+import { OrderSummaryPage } from './OrderSummaryPage';
 
-export class CheckoutPage {
-    constructor(private page: Page) { }
+export class CheckoutPage extends OrderSummaryPage{
+    constructor(page: Page) {
+        super(page)
+    }
 
     // Checkout User info
     firstNameInput() {
